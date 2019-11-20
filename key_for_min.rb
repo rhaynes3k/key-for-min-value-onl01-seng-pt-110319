@@ -7,6 +7,6 @@ def key_for_min_value(name_hash)
     new_a << name_hash.map.sort_by do|k, v|v
     end
     new_a.flatten
-    new_a[0][0][1]
+    new_a[0][0][0]
   end
 end
